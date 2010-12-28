@@ -151,11 +151,11 @@ Add a location to a network class, and then to a whitelist:
 
 Add a location with more than 256 network objects (resulting in multiple network classes):
 # dp-util add net ESnet "Spain - ES"
-This results with 4 different network objects (ESnet-part-1, ESnet-part-2, ..) which we add to the blacklist:
-# dp-util add bl ESnet-part-1
-# dp-util add bl ESnet-part-2
-# dp-util add bl ESnet-part-3
-# dp-util add bl ESnet-part-4
+This results with 4 different network objects (ESnet-1, ESnet-2, ..) which we add to the blacklist:
+# dp-util add bl ESnet-1
+# dp-util add bl ESnet-2
+# dp-util add bl ESnet-3
+# dp-util add bl ESnet-4
 
 
 DefensePro capabilities with GeoIP
@@ -169,6 +169,6 @@ it.
 
 DefensePro supports up to 256 different network objects as part of a network class.  When dp-util creates a
 network class from a location containing over 256 network objects, it splits the location addresses across
-multiple network classes with a "-part-N" suffix.
+multiple network classes with a "-N" suffix.
 
 
