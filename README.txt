@@ -75,7 +75,7 @@ Alternatively, the ENV variables can also be specified at the command line:
 # RDWR_DEVICE="192.168.100.105" RDWR_PROTO="https" dp-util ls bl
 
 Windows:
-> set RDWR_DEVICE="10.2.3.4"
+> set RDWR_DEVICE=10.2.3.4
 
 
 DefensePro setup
